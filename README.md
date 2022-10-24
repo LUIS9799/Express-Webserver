@@ -1,2 +1,2 @@
 # Express-Webserver
-Servidor web express con Nodejs html CSS y JS + seguridad 
+Servidor web express con Nodejs HTML CSS y JS + Seguridad (requests limiter and anti xss)

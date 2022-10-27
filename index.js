@@ -1,13 +1,13 @@
 //Backend 
-// importar modulos
-const fs = require("fs"); //fs
-const path = require("path"); //path
-const express = require("express"); //express
-const http = require("http"); //http
-const helmet = require("helmet"); //helmet
+//Importar modulos
+const fs = require("fs"); //fs- npm i fs
+const path = require("path"); //path - npm i path
+const express = require("express"); //express- npm i express
+const http = require("http"); //http 
+const helmet = require("helmet"); //helmet npm i helmet
 const app = express(); //definir express
 const server = http.createServer(app); //definir server
-const port = process.env.PORT || 8000; //definir puerto
+const port = process.env.PORT || 8000; //definir puerto en este caso es 8080
 
 
 const rateLimit = require("express-rate-limit");
